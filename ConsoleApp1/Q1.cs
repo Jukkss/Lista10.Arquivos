@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Program
+    class Q1
     {
         static void Main(string[] args)
         {
@@ -17,18 +17,17 @@ namespace ConsoleApp1
         }
         static void imprimirFelinos()
         {
-            StreamReader arqL = new StreamReader("C:\\ATP\\Lista10_ATP\\arquivo-01.txt", Encoding.UTF8);
+            StreamReader arqL = new StreamReader("arquivo-01.txt", Encoding.UTF8);
             string[] dados;
             string linha;
-            int i = 1; int c = 1;
+            int posR = 1; int c = 1;
 
             linha = arqL.ReadLine();
             while (linha != null)
             { 
                 dados = linha.Split(';');
-                string raca = dados[i];
+                string raca = dados[posR];
                 Console.WriteLine($"Raça do felino {c}: {raca}");
-                i=+1;
                 c++;
 
                 linha = arqL.ReadLine();

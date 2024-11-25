@@ -8,7 +8,7 @@ using System.IO;
 
 namespace Questão2
 {
-    class Program
+    class Q2
     {
         static void Main(string[] args)
         {
@@ -18,7 +18,7 @@ namespace Questão2
 
         static void imprimirPesos()
         {
-            StreamReader arqL = new StreamReader("C:\\ATP\\Lista10_ATP\\arquivo-01.txt", Encoding.UTF8);
+            StreamReader arqL = new StreamReader("arquivo-01.txt", Encoding.UTF8);
             string[] dados;
             int maiorP = int.MinValue; int menorP = int.MaxValue; int i = 0;
             double media, somapeso = 0;
