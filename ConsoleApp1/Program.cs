@@ -13,23 +13,25 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             imprimirFelinos();
+            Console.ReadLine();
         }
         static void imprimirFelinos()
         {
-            StreamWriter arqE = new StreamWriter("C:\\ATP\\Lista10_ATP\\cods\\EscritaQ1.txt", false, Encoding.UTF8);
             StreamReader arqL = new StreamReader("C:\\ATP\\Lista10_ATP\\arquivo-01.txt", Encoding.UTF8);
             string[] dados;
             string linha;
-            int i = 1; int c = 0;
+            int i = 1; int c = 1;
 
             linha = arqL.ReadLine();
             while (linha != null)
             { 
                 dados = linha.Split(';');
                 string raca = dados[i];
-                Console.WriteLine($"Raça do felino {c+1}: {raca}");
-                i=+2;
+                Console.WriteLine($"Raça do felino {c}: {raca}");
+                i=+1;
                 c++;
+
+                linha = arqL.ReadLine();
             }
             arqL.Close();
         }
