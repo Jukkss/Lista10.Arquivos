@@ -1,16 +1,28 @@
-﻿Gato domestico
+﻿
+Animais de peso entre 5 e 15
+Gato domestico
 Gato-leopardo-asiatico
+
+Animais de peso entre 10 e 15
+
+Animais de peso entre 50 e 200
 Leao
 Leopardo
 Onca-pintada
 Puma
+
+Animais de peso entre 20 e 50
 Jaguatirica
 Lince-iberico
+
+Animais de peso entre 20 e 100
 Jaguatirica
 Leopardo
 Lince-iberico
 Onca-pintada
 Puma
+
+Animais de peso entre 90 e 300
 Leao
 Leopardo
 Onca-pintada

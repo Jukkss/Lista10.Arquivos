@@ -28,6 +28,7 @@ namespace Q4
                 maiorP = int.Parse(dados2[1]);
 
                 string linha1 = arqL1.ReadLine();
+                arqE.WriteLine($"\nAnimais de peso entre {menorP} e {maiorP}");
                 while (linha1 != null)
                 {
                     dados1 = linha1.Split(';');

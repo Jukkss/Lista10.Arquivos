@@ -36,7 +36,7 @@ namespace Q4
                     if (peso >= menorP && peso <= maiorP)
                     {
                         string nome = dados1[0];
-                        Console.WriteLine($"Nome: {nome}\n Peso:{peso}");
+                        Console.WriteLine($"Nome: {nome}\nPeso:{peso}");
                     }
                     linha1 = arqL1.ReadLine();
                 }

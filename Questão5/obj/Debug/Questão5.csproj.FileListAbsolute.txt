@@ -4,3 +4,4 @@ C:\Users\1568660\Source\Repos\Lista10.Arquivos\Questão5\bin\Debug\Questão5.pdb
 C:\Users\1568660\Source\Repos\Lista10.Arquivos\Questão5\obj\Debug\Questão5.csproj.CoreCompileInputs.cache
 C:\Users\1568660\Source\Repos\Lista10.Arquivos\Questão5\obj\Debug\Questão5.exe
 C:\Users\1568660\Source\Repos\Lista10.Arquivos\Questão5\obj\Debug\Questão5.pdb
+C:\Users\1568660\Source\Repos\Lista10.Arquivos\Questão5\obj\Debug\Questão5.csproj.AssemblyReference.cache
