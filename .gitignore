@@ -1,6 +1,5 @@
 # Ignorar a pasta .vs e binários
 .vs/
-bin/
 obj/
 *.user
 *.cache
