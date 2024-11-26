@@ -1,8 +1,2 @@
-# Ignorar a pasta .vs e binários
+# Ignorar a pasta .vs
 .vs/
-obj/
-*.user
-*.cache
-*.exe
-*.pdb
-*.txt
