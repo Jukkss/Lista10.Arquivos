@@ -1,4 +1,4 @@
-﻿// João Victor Soares Souza - Questão 4  - (Lista10)
+﻿// João Victor Soares Souza - Questão 5  - (Lista10)
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,11 +11,12 @@ using System.ComponentModel.Design;
 
 namespace Q4
 {
-    internal class Q4
+    internal class Q5
     {
         static void Main(string[] args)
         {
             StreamReader arqL2 = new StreamReader("arquivo-02.txt", Encoding.UTF8);
+            StreamWriter arqE = new StreamWriter("C:\\Users\\1568660\\Source\\Repos\\Lista10.Arquivos\\Questão5\\bin\\Debug\\arquivo-03.txt", false, Encoding.UTF8);
             string[] dados1; string[] dados2; int menorP, maiorP, peso;
 
             string linha2 = arqL2.ReadLine();
@@ -27,7 +28,6 @@ namespace Q4
                 maiorP = int.Parse(dados2[1]);
 
                 string linha1 = arqL1.ReadLine();
-                Console.WriteLine($"\nAnimais de peso entre {menorP} e {maiorP}");
                 while (linha1 != null)
                 {
                     dados1 = linha1.Split(';');
@@ -36,7 +36,7 @@ namespace Q4
                     if (peso >= menorP && peso <= maiorP)
                     {
                         string nome = dados1[0];
-                        Console.WriteLine($"Nome: {nome}\n Peso:{peso}");
+                        arqE.WriteLine(nome);
                     }
                     linha1 = arqL1.ReadLine();
                 }
@@ -44,7 +44,7 @@ namespace Q4
                 arqL1.Close();
             }
             arqL2.Close();
-            Console.ReadLine();
+            arqE.Close();
         }
     }
 }
