@@ -16,7 +16,7 @@ namespace Q4
         static void Main(string[] args)
         {
             StreamReader arqL2 = new StreamReader("arquivo-02.txt", Encoding.UTF8);
-            StreamWriter arqE = new StreamWriter("C:\\Users\\1568660\\Source\\Repos\\Lista10.Arquivos\\Questão5\\bin\\Debug\\arquivo-03.txt", false, Encoding.UTF8);
+            StreamWriter arqE = new StreamWriter("arquivo-03.txt", false, Encoding.UTF8);
             string[] dados1; string[] dados2; int menorP, maiorP, peso;
 
             string linha2 = arqL2.ReadLine();
