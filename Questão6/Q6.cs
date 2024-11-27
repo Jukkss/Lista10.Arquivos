@@ -15,7 +15,26 @@ namespace Questão6
     {
         static void Main(string[] args)
         {
+            StreamReader arqL = new StreamReader("usuarios.txt",Encoding.UTF8);
+            StreamWriter arqE = new StreamWriter("relatorio.txt", false, Encoding.UTF8);
+            double espacoT = 53687091200, espacoU, percenU, percenT = 0;
+            string[] dados;
 
+            string linhaL = arqL.ReadLine();
+            while (linhaL != null)
+            {
+                dados = linhaL.Split('/');
+                espacoU = double.Parse(dados[1]);
+                percenU = (espacoU/espacoT)*100;
+                percenT += percenU;
+                string nome = dados[0];
+                arqE.WriteLine($"Nome: {nome} / Percentual de espaço: {percenU:F2}");
+
+                linhaL = arqL.ReadLine();
+            }
+            arqE.WriteLine($"Seu disco está {percenT:F2}% ocupado.");
+            arqL.Close();
+            arqE.Close();
         }
     }
 }

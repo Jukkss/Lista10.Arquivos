@@ -1,0 +1,7 @@
+C:\Users\sjuao\Source\Repos\Lista10.Arquivos\Q4\bin\Debug\Q4.exe.config
+C:\Users\sjuao\Source\Repos\Lista10.Arquivos\Q4\bin\Debug\Q4.exe
+C:\Users\sjuao\Source\Repos\Lista10.Arquivos\Q4\bin\Debug\Q4.pdb
+C:\Users\sjuao\Source\Repos\Lista10.Arquivos\Q4\obj\Debug\Questão4.csproj.AssemblyReference.cache
+C:\Users\sjuao\Source\Repos\Lista10.Arquivos\Q4\obj\Debug\Questão4.csproj.CoreCompileInputs.cache
+C:\Users\sjuao\Source\Repos\Lista10.Arquivos\Q4\obj\Debug\Q4.exe
+C:\Users\sjuao\Source\Repos\Lista10.Arquivos\Q4\obj\Debug\Q4.pdb
